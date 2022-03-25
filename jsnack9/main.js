@@ -16,11 +16,11 @@ for(let i = 0; i < 10;i++){
     let numero = parseInt(prompt("inserisci il numero"));
     contenitoreNumeri.push(numero);
 }
+//somma valori array
 let somma = 0;
 for (let i = 0; i < calcolo.length; i++) {
     somma += calcolo[i];
-    }
-
+}
 console.log(calcolo);
 return somma;
 }
