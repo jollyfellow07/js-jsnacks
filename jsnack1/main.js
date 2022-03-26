@@ -1,5 +1,6 @@
-let numero1 = parseInt(prompt("inserisci in numero 1"));
-let numero2 = parseInt(prompt("inserisci in numero 2"));
+alert("calcolo del numero maggiore");
+let numero1 = parseInt(prompt("inserisci un numero"));
+let numero2 = parseInt(prompt("inserisci un numero"));
 if(numero1>numero2){
 
 alert("il numero maggiore è:" + numero1);
